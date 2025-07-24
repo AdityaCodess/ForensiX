@@ -17,7 +17,7 @@
 
 ---
 
-## 🧰 Use Cases
+## 🧰 Use Case
 
 - Scanning USBs or external drives
 - Detecting abnormal files before use
