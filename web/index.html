@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ForensiX Scanner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>ForensiX - Drive Recovery Tool</h1>
+
+    <input type="text" id="drivePath" value="E:\" />
+    <button id="basicBtn">Basic Scan</button>
+    <button id="smartBtn">Smart Scan</button>
+
+    <div id="progress">Scanning: 0.00%</div>
+
+    <div id="scan-results" style="max-height: 300px; overflow-y: auto; border: 1px solid #ccc; margin-top: 10px;"></div>
+
+    <div id="statusLog" style="margin-top: 10px; font-style: italic;">Waiting to start scan...</div>
+
+    <div id="fullLog"
+        style="max-height: 200px; overflow-y: auto; margin-top: 15px; border-top: 1px dashed #888; padding-top: 10px;">
+    </div>
+
+    <script src="/eel.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
